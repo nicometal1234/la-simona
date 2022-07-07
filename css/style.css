@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "aliseo";
+  src: url(../fonts/aliey.otf);
+}
+@font-face {
+  font-family: "austria";
+  src: url(../fonts/austria.otf);
+}
+@font-face {
+  font-family: "caviar";
+  src: url(../fonts/caviar.ttf);
+}
+body header {
+  background-color: #ffc87a;
+  margin-bottom: 0%;
+  grid-area: header;
+}
+body header h1 {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-family: "aliseo";
+}
+body header h4 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: "austria";
+}
+
+.aside {
+  grid-area: aside;
+  background-color: #f4bb89;
+}
+.aside h2 {
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+  font-family: "caviar";
+}
+.aside li {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  color: white;
+  font-family: "caviar";
+}
+
+.article {
+  grid-area: article;
+  background-color: #f8cf9b;
+}
+.article p {
+  font-size: 25px;
+  padding: 40px;
+  color: white;
+  font-family: "caviar";
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+  grid-area: rep;
+}
+
+.section {
+  grid-area: section;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #ffc87a;
+}
+.footer h3 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "caviar";
+}
+
+.gridarea {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px, 400px, 200px, 200px, 300px;
+  grid-template-areas: "header header header" "rep rep aside" "article article article" "section section section" "footer footer footer";
+}
+
+/*# sourceMappingURL=style.css.map */
