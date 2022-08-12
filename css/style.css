@@ -11,7 +11,7 @@
   src: url(../fonts/caviar.ttf);
 }
 body header {
-  background-color: #ffc87a;
+  background-color: #5C068C;
   margin-bottom: 0%;
   grid-area: header;
 }
@@ -52,7 +52,7 @@ body header h4 {
 
 .aside {
   grid-area: aside;
-  background-color: #f4bb89;
+  background-color: #8246AF;
 }
 .aside h2 {
   font-size: 30px;
@@ -94,7 +94,7 @@ body header h4 {
 
 .article {
   grid-area: article;
-  background-color: #f8cf9b;
+  background-color: #C1A0DA;
 }
 .article p {
   font-size: 25px;
@@ -128,7 +128,7 @@ body header h4 {
 
 .footer {
   grid-area: footer;
-  background-color: #ffc87a;
+  background-color: #8246AF;
 }
 .footer h3 {
   color: white;
